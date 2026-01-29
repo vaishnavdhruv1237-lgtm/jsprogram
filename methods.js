@@ -32,6 +32,7 @@ console.log("subString() : ", str.substring(2,7))
 
 console.log("replace() : ", str.replace("JavaScript","React"))
 
-console.log("concat() : ", str.concat("Hello ReactJS"))
+let extraRext = " - Hello JS";
+console.log("concat : ", str.concat(extraRext))
 
-console.log("split() : ", str.split("Hello"))
+console.log("split : ", str.split(" "))
